@@ -96,7 +96,7 @@
 
 .profile {
 	background: #000000;
-        padding-top: 7rem !important;
+	padding-top: 7rem !important;
 }
 
 .profile .text {
@@ -138,45 +138,6 @@
 
 }
 
-/* 
-.about{
-	background: #000000;
-}
-.about .text{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin: auto;
-	
-}
-.about .text h6{
-	color: #00BF7F;
-	font-weight: 700;
-	font-size: 1rem;
-	letter-spacing: 2px;
-}
-.about .text h2{
-	color: #F7F5F4;
-	font-weight: 600;
-	font-size: 2.7rem;
-}
-.about .text p{
-	color: #F7F5F4;
-	font-weight: 400;
-	font-size: 1.1rem;
-	letter-spacing: 0.5px;
-}
-.about .text a{
-	background: #00BF85;
-	font-weight: 600;
-	padding: 0.6rem 1.4rem;
-	border-radius: 30px;
-	border-radius:none;
-	text-decoration:none;
-	color: #111;
-
-}  */
 .contact {
 	background: #000000;
 	padding-top: 20rem !important;
@@ -332,6 +293,7 @@
 	padding-top: 10rem !important;
 	margin-bottom: 0rem;
 }
+
 .aboutPage .text {
 	display: flex;
 	flex-direction: column;
@@ -361,7 +323,7 @@
 	text-align: justify;
 }
 
-aboutPage .row img {
+.aboutPage .row img {
 	width: 50%;
 	margin-left: 8rem;
 }
@@ -378,7 +340,7 @@ aboutPage .row img {
 	justify-content: flex-start;
 	align-items: flex-start;
 	margin: auto;
-	
+
 }
 
 .aboutSkills .skills h6 {
@@ -401,4 +363,49 @@ aboutPage .row img {
 	text-align: justify;
 	margin-left: 1.2rem;
 
+}
+
+/************************************************************************************************/
+/******************************* styling the exercisses page ******************************************/
+/************************************************************************************************/
+.basicExercises {
+	background: #000000;
+	padding-top: 10rem !important;
+	margin-bottom: 0rem;
+}
+
+.basicExercises h2 {
+	color: #D4AF37;
+	font-weight: 900;
+	font-size: 1.5rem;
+	letter-spacing: 0.9px;
+
+}
+.basicExercises h1 {
+	color: #F7F5F4;
+	font-weight: 900;
+	font-size: 3.8rem;
+	letter-spacing: 1px;
+
+}
+
+.basicExercises .exe {
+	display: block;
+	padding: 1rem 1.4rem;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
+	text-decoration: none;
+	color: #F7F5F4;
+}
+
+.basicExercises ul .Liexe {
+	list-style-type: circle;
+	color: #F7F5F4;
+    margin-left: 1rem;
+	margin-top: 0rem;
+
+}
+
+.basicExercises a:hover {
+	color: #D4AF37;
 }
